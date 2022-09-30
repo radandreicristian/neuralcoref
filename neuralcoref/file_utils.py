@@ -28,7 +28,7 @@ NEURALCOREF_CACHE = os.getenv(
 )
 
 NEURALCOREF_MODEL_URL = (
-    "https://s3.amazonaws.com/models.huggingface.co/neuralcoref/neuralcoref.tar.gz"
+    "s3://kamidoo-static/MLModels/Kamidoo.Web.Nlp.Services.Spacy/Neuralcoref/neuralcoref.tar.gz"
 )
 NEURALCOREF_MODEL_PATH = os.path.join(str(NEURALCOREF_CACHE), "neuralcoref")
 
